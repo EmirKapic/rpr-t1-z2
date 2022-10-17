@@ -15,7 +15,7 @@ public class Main {
     }
     static int sumaCifara(int n){
         int suma = 0;
-        while (n != 0){
+        while (n !=0){
             suma += n % 10;
             n /= 10;
         }
